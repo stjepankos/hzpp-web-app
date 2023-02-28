@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import StationSelect from "./StationSelect";
 import { Station, StationResponse, Train } from "./types";
 
-const url = "http://127.0.0.1:5000";
+const url = "https://hzpp-api.onrender.com";
 
 function App() {
   const [stations, setStations] = useState<Station[]>([]);
